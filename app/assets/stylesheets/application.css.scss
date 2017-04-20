@@ -41,6 +41,18 @@ html {
     }
 }
 
+//Navbar hamburger styles
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    
+    &:hover, &:focus {
+        background-color: #43C8AA;
+    }
+}
 
 // Homepage top and navbar styles
 .home-callout, .navbar {
