@@ -22,7 +22,6 @@
 // Typography
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
-    //color: white;
 }
 
 html {
@@ -31,6 +30,11 @@ html {
 
 .navbar {
     border: none;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 // Homepage top and navbar styles
