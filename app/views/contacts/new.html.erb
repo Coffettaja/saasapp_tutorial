@@ -1,8 +1,8 @@
 <div class="container">
     <h3 class="text-center">Contact Us</h3>
+    <!--TODO: Fix form form emptying completely if unsuccesful submit -->
     <div class="row">
-        <div class="col-md-4 col-xs-8 col-xs-offset-2 col-md-offset-4">
-            <%= flash[:error] %>
+        <div class="col-md-4 col-md-offset-4">
             <%= form_for @contact do |f| %>
                 <div class="form-group">
                 <%= f.label :name %>
