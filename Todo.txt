@@ -1,0 +1,2 @@
+* Show plan options on nav bar "Sign up"
+* Fix the look for plan option buttons

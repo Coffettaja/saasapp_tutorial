@@ -9,8 +9,8 @@
                 <h2 class="text-center">Basic membership</h2>
                 <h4>Sign up for free and get the basic features.</h4>
                 <br/>
-                <%= link_to "Sign up with Basic plan", "#", 
-                class: 'btn btn-primary btn-large btn-block' %>
+                <%= link_to "Sign up with Basic plan", new_user_registration_path(plan: @basic_plan.id), 
+                class: 'btn btn-primary btn-lg btn-block' %>
             </div>
         </div>
         <div class="col-md-6" >
@@ -19,8 +19,8 @@
                 <h4>Sign up for pro account for $10/month 
                 and get amazing features</h4>
                 <br/>
-                <%= link_to "Fix this stupid look", "#", 
-                class: 'btn btn-success btn-large btn-block' %>
+                <%= link_to "Fix this stupid look", new_user_registration_path(plan: @pro_plan.id), 
+                class: 'btn btn-success btn-lg btn-block' %>
             </div>
         </div>
     </div>
