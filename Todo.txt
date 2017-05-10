@@ -2,3 +2,5 @@
 * Fix the look for plan option buttons
 * Better sign up form, especially pro, e.g. info about accounts etc.
     * Change "Log in" text & look
+    * Validation and colors
+* Can hidden input fields in pro and basic form be in the main file?
