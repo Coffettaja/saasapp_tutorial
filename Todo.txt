@@ -4,3 +4,4 @@
     * Change "Log in" text & look
     * Validation and colors
 * Can hidden input fields in pro and basic form be in the main file?
+* Study Stripe
