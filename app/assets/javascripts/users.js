@@ -17,7 +17,7 @@ $(document).on('turbolinks:load', function()
         event.preventDefault();
         
         //Disable the sign up button TODO: Gray it out
-        signUpBtn.val('0Processing').prop('disabled', true);
+        signUpBtn.val('Processing').prop('disabled', true);
         
         //Collect the credit card info
         var creditCardNum = $('#card_number').val(),

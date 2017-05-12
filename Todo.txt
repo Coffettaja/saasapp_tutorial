@@ -5,3 +5,4 @@
     * Validation and colors
 * Can hidden input fields in pro and basic form be in the main file?
 * Study Stripe
+* Transaction doesn't work, try without turbolinks
