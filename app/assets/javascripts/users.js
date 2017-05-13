@@ -4,8 +4,8 @@
 //Document ready using turbolinks, supposedly faster?
 $(document).on('turbolinks:load', function()
 {
-    var theForm = $('#pro-form');
-    var signUpBtn = $('form-signup-btn');
+    var theForm = $('#pro_form');
+    var signUpBtn = $('#form-signup-btn');
     
     //Get public key from application html file meta tag
     //This way Stripe knows what account the request is from

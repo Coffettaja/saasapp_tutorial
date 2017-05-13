@@ -3,6 +3,6 @@
 * Better sign up form, especially pro, e.g. info about accounts etc.
     * Change "Log in" text & look
     * Validation and colors
+    * Disable everything when processing
 * Can hidden input fields in pro and basic form be in the main file?
 * Study Stripe
-* Transaction doesn't work, try without turbolinks
