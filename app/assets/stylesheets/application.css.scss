@@ -72,8 +72,17 @@ html {
     }
 }
 
-.alert-notice {
-    display: none;
+.flash-container {
+    position: absolute;
+    width: 100%;
+}
+
+.alert-notice, .alert-alert {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-top: -15px;
+    color: rgba(250, 250, 250, 1.0);
 }
 
 // Styles for buttons in navbar

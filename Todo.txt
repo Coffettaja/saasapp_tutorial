@@ -1,5 +1,6 @@
 * Show plan options on nav bar "Sign up"
 * Fix the look for plan option buttons
+* Fix the look for alert when trying to sign up if logged in
 * Better sign up form, especially pro, e.g. info about accounts etc.
     * Change "Log in" text & look
     * Validation and colors
