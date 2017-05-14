@@ -17,6 +17,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   end
   
   private
+  #TODO This should redirect specifically to the plan selection
     def select_plan
       unless (params[:plan] == '1' || params[:plan] == '2')
       flash[:notice] = "Select membership plan to sign up."

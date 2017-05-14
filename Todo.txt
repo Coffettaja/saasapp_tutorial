@@ -1,9 +1,13 @@
 * Show plan options on nav bar "Sign up"
+    * Redirecting should probably be done in registrations_control
 * Fix the look for plan option buttons
 * Fix the look for alert when trying to sign up if logged in
 * Better sign up form, especially pro, e.g. info about accounts etc.
     * Change "Log in" text & look
+    * Don't reset whole process if something fails
     * Validation and colors
     * Disable everything when processing
 * Can hidden input fields in pro and basic form be in the main file?
 * Study Stripe
+* When signed in with basic acc, pro plan button should allow upgrading
+* Sign out stays on the same page if possible
