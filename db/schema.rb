@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20170515182617) do
     t.integer  "user_id"
     t.string   "first_name"
     t.string   "last_name"
-    t.string   "job_title"
+    t.string   "sex"
     t.string   "phone_number"
     t.string   "contact_email"
     t.text     "description"
