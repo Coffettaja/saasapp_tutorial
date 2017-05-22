@@ -9,11 +9,15 @@ class ProfilesController < ApplicationController
       # Get the user who is filling out the form
       @user = User.find(params[:user_id])
       # Profile link to this specific user
+      # 'build_something' is rails built in function; 
+      # use when dealing with relations (instead of .new)
+      # If the relation was 'has_many', use plural: @user.profiles.build
       @profile = @user.build_profile( profile_params )
       if @profile.save
          flash[:success] = "Profile updated!"
          redirect_to root_path
       else
+         # Doesn't make related http request, only shows the view file
          render action :new
       end
    end
