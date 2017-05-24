@@ -11,3 +11,5 @@
 * Study Stripe
 * When signed in with basic acc, pro plan button should allow upgrading
 * Sign out stays on the same page if possible
+* Allow users to see their own profile, obviously...
+* Better profile page styles
