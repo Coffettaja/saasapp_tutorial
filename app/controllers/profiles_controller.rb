@@ -1,4 +1,8 @@
 class ProfilesController < ApplicationController
+   # Run this devise method before any action is run, is the user logged in?
+   before_action :authenticate_user! #, only: [:new, :edit] # for specifying
+   before_action :only_current_user
+   
    # Will call app/views/profiles/new.html.erb
    def new
        @profile = Profile.new
@@ -47,5 +51,12 @@ class ProfilesController < ApplicationController
       def profile_params
          params.require(:profile).permit(:first_name, :last_name, :avatar, :sex, 
          :phone_number, :contact_email, :description)
+      end
+      
+      # Check if the page that the user is trying to visi actually 'belongs' to them
+      # If not, redirect to home page
+      def only_current_user
+         @user = User.find( params[:user_id] )
+         redirect_to(root_url) unless @user == current_user 
       end
 end
