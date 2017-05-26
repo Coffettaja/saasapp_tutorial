@@ -22,6 +22,12 @@ class ProfilesController < ApplicationController
       end
    end
    
+   # GET to /users/:user_id/profile/edit
+   def edit
+      # The profile to be edited
+      @profile = User.find( params[:user_id] ).profile
+   end
+   
    private
       #Whitelisted profile field params
       def profile_params
