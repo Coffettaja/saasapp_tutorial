@@ -13,3 +13,4 @@
 * Sign out stays on the same page if possible
 * Allow users to see their own profile, obviously...
 * Better profile page styles
+* "My Account" navbar link into dropdown and more options
